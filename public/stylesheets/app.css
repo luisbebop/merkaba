@@ -1,0 +1,79 @@
+body {
+/*	background-image: url('/images/concrete_wall.png');*/
+/*	background-image: url('/images/grass.png');*/
+	border-top: 5px solid #0B486B;
+	background-color: #0B486B;
+}
+
+.content {
+	background-color: #fff;
+	height: 360px;
+}
+
+#about {
+	margin-top: 45px;
+}
+
+.twopay h3, .planobe h3, .cloudmed h3{
+	margin-top: 50px;
+	height: 130px;
+	width: 100%;
+	font-size: 0;
+}
+
+.twopay h3 { background: url('/images/2pay.png') 50% 0 no-repeat; }
+.planobe h3 { background: url('/images/planobe.png') 50% 0 no-repeat; }
+.cloudmed h3 { background: url('/images/cloudmed.png') 50% 0 no-repeat; }
+
+.out-link {
+	display: block;
+	margin-top: 15px;
+}
+
+h1{
+	font-size: 34px;
+	font-weight: bolder;
+	text-align: center;
+	margin: 30px 0 33px 0;
+	color: #3b8686;
+}
+
+#about h2 {
+	color: #555;
+	font-size: 20px;
+	line-height: 30px;
+	text-shadow: 0 1px 0 #fff;
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+
+#logo{
+	margin-top: 42px;
+}
+
+dfn {
+	text-align:center;
+	font-size: 16px;
+	line-height: 20px;
+	margin-top: 27px;
+	display: block;
+	font-style: italic;
+	color: #aaa;
+}
+
+strong { font-weight: bolder; }
+
+.portfolio {
+	font-size: 14px;
+	text-shadow: 0 1px 0 #012e47;
+	line-height: 21px;
+	color: #fff;
+}
+
+.portfolio img{
+	margin: 60px 0 20px 0;
+}
+
+.portfolio a{
+	color: #fff;
+}
