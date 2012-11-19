@@ -15,6 +15,10 @@ require 'sinatra'
 
 set :views, File.dirname(__FILE__) + '/templates'
 
+get '/indicadores' do
+  erb :indicadores
+end
+
 get '*' do
   erb :index
 end

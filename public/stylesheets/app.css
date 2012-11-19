@@ -38,13 +38,22 @@ h1{
 	color: #3b8686;
 }
 
-#about h2 {
+#about h2, #indicadores h2 {
 	color: #555;
 	font-size: 20px;
 	line-height: 30px;
 	text-shadow: 0 1px 0 #fff;
 	margin-top: 15px;
 	margin-bottom: 25px;
+}
+
+#indicadores h2 {
+	margin-top: 25px;
+	margin-bottom: 0;
+}
+
+#indicadores p {
+	font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 #logo{
